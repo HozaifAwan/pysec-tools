@@ -6,3 +6,9 @@ def analyze_log(file_path):
     except:
         print("Could not open the file.")
         return
+    
+    total_lines = len(lines)
+    error_count = 0
+    failed_count = 0
+
+    
