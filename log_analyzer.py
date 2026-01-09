@@ -17,3 +17,10 @@ def analyze_log(file_path):
             error_count += 1
         if "failed" in lower:
             failed_count += 1
+    
+    print("Log Analysis Report")
+    print("-------------------")
+    print("Total Lines: ", total_lines)
+    print("Error Lines: ", error_count)
+    print("Failures found: ", failed_count)
+    
