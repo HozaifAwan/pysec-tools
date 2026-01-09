@@ -12,7 +12,7 @@ def analyze_log(file_path):
     failed_count = 0
 
     for line in lines:
-        lower = line.liwer()
+        lower = line.lower()
         if "error" in lower:
             error_count += 1
         if "failed" in lower:
