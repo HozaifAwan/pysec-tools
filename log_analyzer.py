@@ -4,4 +4,5 @@ def analyze_log(file_path):
         with open(file_path, "r") as file:
             lines = file.readlines()
     except:
-        print
+        print("Could not open the file.")
+        return
