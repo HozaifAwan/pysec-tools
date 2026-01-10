@@ -25,4 +25,4 @@ def analyze_log(file_path):
     print("Failures found: ", failed_count)
 
 log_file = input("Enter log file name: ")
-analyze_log(log_file)
+analyze_log(log_file)s
