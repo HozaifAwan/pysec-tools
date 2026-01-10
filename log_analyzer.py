@@ -16,6 +16,8 @@ def analyze_log(file_path):
                     failed_count += 1
     
     except FileNotFoundError:
+        print("File not found.")
+        return
     except:
         print("Could not open the file.")
         return
