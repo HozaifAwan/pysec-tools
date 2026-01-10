@@ -13,7 +13,9 @@ def analyze_log(file_path):
                 if "error" in lower:
                     error_count += 1
                 if "failed" in lower:
-                    failed_count
+                    failed_count += 1
+    
+    except FileNotFoundError:
     except:
         print("Could not open the file.")
         return
