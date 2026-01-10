@@ -7,7 +7,11 @@ def analyze_log(file_path):
     try:
         with open(file_path, "r") as file:
             for line in file:
+                total_lines += 1
+                lower = line.lower()
                 
+                if "error" in lower:
+                    error_count += 1
     except:
         print("Could not open the file.")
         return
