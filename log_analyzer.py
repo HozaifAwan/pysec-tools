@@ -2,6 +2,7 @@
 def analyze_log(file_path):
     error_count = 0
     failed_count = 0
+    total_lin
     try:
         with open(file_path, "r") as file:
             lines = file.readlines()
