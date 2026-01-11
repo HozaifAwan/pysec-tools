@@ -28,5 +28,5 @@ def analyze_log(file_path):
     print("Error Lines: ", error_count)
     print("Failures found: ", failed_count)
 
-log_file = input("Enter log file name:)
+log_file = input("Enter log file name:")
 analyze_log(log_file)
