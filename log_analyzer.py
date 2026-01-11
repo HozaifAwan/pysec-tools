@@ -1,7 +1,7 @@
 
 def analyze_log(file_path):
     error_count = 0
-    failed_count = 0
+    failed_count = 
     total_lines = 0
 
     try:
