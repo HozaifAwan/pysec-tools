@@ -15,7 +15,7 @@ def analyze_log(file_path):
                 if "failed" in lower:
                     failed_count += 1
     
-    except FileNotFound
+    except FileNotFoundError
         print("File not found.")
         return
     except PermissionError:
